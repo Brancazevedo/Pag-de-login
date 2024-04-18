@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding-right: 5%;
+    background-color: #010926;
+    padding: auto;
+}
+
+main{
+    background-color: #111C68 ;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 50px 50px 120px 50px;
+    float: center;
+    justify-content: center;
+    align-items: center; 
+    display: flexbox;
+
+}
+#info-login{
+    float: right;
+    padding: 20px;
+    background-color: #1C2FB3;
+    border-radius: 25px;
+    
+}
+
+a{
+    color:#32035A ;
+    margin-left: 2vw;
+}
+
+button{
+    margin-left: 25px;
+    font-size: 20px;    
+    padding: 30px 180px;
+    background: green;
+    border-radius: 10px;
+    border-width: 0;
+    color:white;
+}
+
+button:hover{
+    background-color: darkgreen;
+
+}
+
+h2{
+    color: lightgreen;
+    margin-top: 5vw;
+    padding-left: 2vw;
+    font-style: italic;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    width: 40vw;
+    margin-left: 4vw;
+    
+}
+
+img{
+    margin-left: 200px;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: #010926;
+    color: gray;
+    text-align: start;
+    justify-items: center;
+    width: 25vw;
+    padding-left: 1vw;
+    margin-left: 1.5vw;
+        
+}
+
+h1{
+    color:lightgreen;
+    justify-content: center;
+    text-align: center;
+}
+
+h4{
+    color:white;
+    padding-left: 2vw;
+}
+
+P{
+    color: white;
+    text-align: center;
+}
+
