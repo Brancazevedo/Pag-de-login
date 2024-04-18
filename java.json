@@ -1,0 +1,9 @@
+const usernameTextarea = document.getElementById('username');
+const passwordTextarea = document.getElementById('password');
+
+usernameTextarea.addEventListener('click', limparTexto);
+passwordTextarea.addEventListener('click', limparTexto);
+
+function limparTexto(event) {
+  event.target.textContent = ''; // Use event.target to access the clicked element
+}
